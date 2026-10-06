@@ -1,0 +1,13 @@
+# Never commit personal financial data
+*.csv
+*.pdf
+*.eml
+*.msg
+*.json
+*.qfx
+*.ofx
+receipts/
+data/
+
+# Scrub script lists the personal terms it removes; keep it local
+make-public.sh
